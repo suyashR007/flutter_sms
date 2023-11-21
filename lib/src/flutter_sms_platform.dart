@@ -5,7 +5,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'user_agent/io.dart' if (dart.library.html) 'user_agent/web.dart';
 
 const MethodChannel _channel = MethodChannel('flutter_sms');
